@@ -12,12 +12,15 @@ class App extends Component {
       host:''
     }
   }
+
   componentDidMount(){
     this._getHost();
   }
-  _getHost = async()=> {
-    const res = await axios.get('/api/host');
-    this.setState({ host :res.data.host})
+
+
+  _getHost = async() => {
+    const res = await axios.get('/');
+    this.setState({ host : res.data.host})
   }
   
   //만약 서버가 연동되어 있지 않다면 클라이언트는 '/api/host'에 접근할 수 없기 때문에, host라는 state는 빈 값만 가지게 되고, 
@@ -29,7 +32,7 @@ class App extends Component {
     return (
       
       <div id="wrap" >
-        <h3>Welcome to <u>{this.state.host}</u>Blog!</h3>
+        <h3>Welcome to <u>{this.state.host}</u>Blog!why..</h3>
         <Routes/>
       </div>
     );
