@@ -9,21 +9,21 @@ class Content1 extends Component {
             <ul className="clearfix">
                 <li className="active"><a href="#">오늘의 상품추천</a>
                     <ul className = "go">
+                        {/* <li><a href="#">1. 첫번째 목록입니다. </a><span>2020.12.27</span></li>
                         <li><a href="#">1. 첫번째 목록입니다. </a><span>2020.12.27</span></li>
                         <li><a href="#">1. 첫번째 목록입니다. </a><span>2020.12.27</span></li>
                         <li><a href="#">1. 첫번째 목록입니다. </a><span>2020.12.27</span></li>
-                        <li><a href="#">1. 첫번째 목록입니다. </a><span>2020.12.27</span></li>
-                        <li><a href="#">1. 첫번째 목록입니다. </a><span>2020.12.27</span></li>
+                        <li><a href="#">1. 첫번째 목록입니다. </a><span>2020.12.27</span></li> */}
                         
                     </ul>
                 </li>
                 <li className="burn"><a href="#" id ="font">번개톡</a>
                     <ul className = "go">
+                        {/* <li><a href="#">2. 첫번째 목록입니다. </a><span>2020.12.27</span></li>
                         <li><a href="#">2. 첫번째 목록입니다. </a><span>2020.12.27</span></li>
                         <li><a href="#">2. 첫번째 목록입니다. </a><span>2020.12.27</span></li>
                         <li><a href="#">2. 첫번째 목록입니다. </a><span>2020.12.27</span></li>
-                        <li><a href="#">2. 첫번째 목록입니다. </a><span>2020.12.27</span></li>
-                        <li><a href="#">2. 첫번째 목록입니다. </a><span>2020.12.27</span></li>
+                        <li><a href="#">2. 첫번째 목록입니다. </a><span>2020.12.27</span></li> */}
                     </ul>
                 </li>
             </ul>

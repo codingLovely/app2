@@ -3,6 +3,7 @@ import { Component } from 'react';
 import {Router,Route,Redirect,Switch, Link} from "react-router-dom";
 import Write from'./Screens/Write';
 import Item from'./Screens/Item';
+import LoginPage from './Screens/LoginPage';
 import Header from './Components/Header';
 import Banner from './Components/Banner';
 import Content1 from './Components/Content1';
@@ -17,10 +18,9 @@ class Home extends Component {
           <Header>
                 <Route path = "/write" component = {Write}/>
                 <Route path = "/item" component = {Item}/>
+                <Router path = "/LoginPage" component ={LoginPage}/>
           </Header>
         </Router>
-        
-      
         <Banner></Banner>
         <Content1></Content1>
         <Content2></Content2>
